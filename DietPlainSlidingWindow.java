@@ -27,6 +27,7 @@ public class DietPlainSlidingWindow {
             if (j - i + 1 < k) {
                 j++;
             } else if (j - i + 1 == k) {
+                sum-=arr[i];
                 if (sum < l) {
                     ans--;
                 } else {
